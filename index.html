@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Navidad Prof. Rupert</title>
+    <link rel="icon" href="./noel.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body >
+    <audio id="audio" src="./audio.mp3"></audio>
+
+    <div id="as" class="christmas-message">Feliz Navidad</div>
+    <div class="tree-container">
+        <img src="https://github.com/Panbap/datapanbap/blob/main/image/big_tree.png?raw=true" alt="Cây thông" class="tree-icon">
+    </div>
+
+    <div class="container">
+        <button id="showButton">
+            Ver carta
+        </button>
+    </div>
+
+    <div id="guideInfo" class="hidden">
+        <button id="closeButton" class="close-btn">X</button>
+        <div id="ax" class="card">
+            <div class="imgBox">
+                <div class="bark"></div>
+                <img
+                    src="https://marketplace.canva.com/EAGWlBb0n-0/1/0/900w/canva-historia-de-instagram-fondo-navidad-ilustrado-verde-y-dorado-lnxZzuP9qy8.jpg">
+            </div>
+            <div class="details">
+                <h4 class="color margin">🎄 Feliz Navidad 🌟</h4>
+                <p style="font-weight: bold;">Querido Rupert</p>
+                <p>En esta Navidad quiero desearle todo lo mejor.</p>
+                <p>Especialmente y completamente que tenga salud.</p>
+                <p>Que la paz, el amor y la fuerza lo acompañen.</p>
+                <p>Que pronto pueda retomar con toda la energía.</p>
+                <p>Con todo lo que te apasiona especialmente la danza</p>
+                <p>Su talento y dedicación inspiran a los que lo rodean.</p>
+                <p>Los mejores deseos que pase unas fiestas llenas de</p>
+                <p>Paz, alegría y rodeado de los que más quiere.</p>
+                <p>Le envío un fuerte abrazo y bendiciones,</p>
+                <p class="text-right">🎁 Feliz Navidad! 🦌</p>
+                <p class="text-right">✨Prof. Rupert🎅</p>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+       document.body.addEventListener("click", function() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        });
+    </script>
+
+</body>
+
+</html>
